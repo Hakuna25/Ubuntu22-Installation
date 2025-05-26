@@ -7,7 +7,7 @@ My pc is Alienware R15 (Nvidia GTX 4070Ti). Entering BIOS with F2 quite after th
 
 ## Installation
 The installation process is way like that of virtual machine Ubuntu:
-Each option setting to default will be good.
+each option setting to default will be good.
 
 ## Problem you may counter
 - **Stuck after entering Try or install Ubuntu**. Press *'e'* on *Try or install ubuntu* to edit instead of entering that option: add *'nomodeset'* after quick spalsh:
@@ -32,11 +32,11 @@ install Nvidia driver:
 sudo apt update
 sudo ubuntu-drivers devices
 ```
-There can be:
+there can be:
 ```
 driver   : nvidia-driver-570 - distro non-free recommended
 ```
-Then install:
+then install:
 ```
 sudo apt install nvidia-driver-570
 ```
