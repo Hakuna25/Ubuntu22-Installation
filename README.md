@@ -40,6 +40,10 @@ then install:
 ```
 sudo apt install nvidia-driver-570
 ```
+make it active:
+```
+sudo reboot
+```
 check your instalation:
 ```
 nvidia-smi
